@@ -1,0 +1,19 @@
+{
+  "name": "seadronix-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkdihoon/seadronix-homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkdihoon/seadronix-homework/issues"
+  },
+  "homepage": "https://github.com/parkdihoon/seadronix-homework#readme"
+}

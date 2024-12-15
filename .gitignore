@@ -6,3 +6,8 @@
 *.iml
 out
 gen
+
+node_modules
+
+decoded-data
+videos

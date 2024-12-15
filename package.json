@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "node frontend-server.js",
+    "server-http": "node server-by-http.js",
+    "question1": "node question1/app.js",
+    "question2": "concurrently 'npm run client -- question2' 'npm run server-http'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/parkdihoon/seadronix-homework/issues"
   },
-  "homepage": "https://github.com/parkdihoon/seadronix-homework#readme"
+  "homepage": "https://github.com/parkdihoon/seadronix-homework#readme",
+  "dependencies": {
+    "concurrently": "^9.1.0",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
 }
